@@ -7,18 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC28079725253D8F00185DF4 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC28079525253D8F00185DF4 /* InitialViewController.swift */; };
+		AC28079825253D8F00185DF4 /* InitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC28079625253D8F00185DF4 /* InitialViewController.xib */; };
+		AC3C4CF62533B3A000B35367 /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3C4CF42533B3A000B35367 /* HomeTabBarViewController.swift */; };
+		AC3C4CF72533B3A000B35367 /* HomeTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC3C4CF52533B3A000B35367 /* HomeTabBarViewController.xib */; };
+		AC3C4CFA2533B3D000B35367 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3C4CF82533B3D000B35367 /* SettingsViewController.swift */; };
+		AC3C4CFB2533B3D000B35367 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC3C4CF92533B3D000B35367 /* SettingsViewController.xib */; };
+		AC3C4CFE2533B3DE00B35367 /* CreateExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3C4CFC2533B3DE00B35367 /* CreateExpenseViewController.swift */; };
+		AC3C4CFF2533B3DE00B35367 /* CreateExpenseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC3C4CFD2533B3DE00B35367 /* CreateExpenseViewController.xib */; };
+		AC3C4D022533B3F200B35367 /* ExpenseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3C4D002533B3F200B35367 /* ExpenseListViewController.swift */; };
+		AC3C4D032533B3F200B35367 /* ExpenseListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC3C4D012533B3F200B35367 /* ExpenseListViewController.xib */; };
+		AC3C4D0A2533B40C00B35367 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3C4D082533B40C00B35367 /* CategoriesViewController.swift */; };
+		AC3C4D0B2533B40C00B35367 /* CategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC3C4D092533B40C00B35367 /* CategoriesViewController.xib */; };
+		AC3C4D0E2533C67C00B35367 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3C4D0C2533C67C00B35367 /* StatisticsViewController.swift */; };
+		AC3C4D0F2533C67C00B35367 /* StatisticsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC3C4D0D2533C67C00B35367 /* StatisticsViewController.xib */; };
+		AC3C4D132533C9EA00B35367 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3C4D122533C9EA00B35367 /* Expense.swift */; };
+		AC3C4D152533C9F500B35367 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3C4D142533C9F500B35367 /* Category.swift */; };
+		AC3C4D192533CBD200B35367 /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3C4D172533CBD200B35367 /* ExpenseTableViewCell.swift */; };
+		AC3C4D1A2533CBD200B35367 /* ExpenseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC3C4D182533CBD200B35367 /* ExpenseTableViewCell.xib */; };
 		ACD582672525397C000BF6B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD582662525397C000BF6B6 /* AppDelegate.swift */; };
-		ACD582692525397C000BF6B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD582682525397C000BF6B6 /* SceneDelegate.swift */; };
-		ACD5826B2525397C000BF6B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD5826A2525397C000BF6B6 /* ViewController.swift */; };
 		ACD582702525397F000BF6B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD5826F2525397F000BF6B6 /* Assets.xcassets */; };
 		ACD582732525397F000BF6B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD582712525397F000BF6B6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC28079525253D8F00185DF4 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		AC28079625253D8F00185DF4 /* InitialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InitialViewController.xib; sourceTree = "<group>"; };
+		AC3C4CF42533B3A000B35367 /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
+		AC3C4CF52533B3A000B35367 /* HomeTabBarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTabBarViewController.xib; sourceTree = "<group>"; };
+		AC3C4CF82533B3D000B35367 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AC3C4CF92533B3D000B35367 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		AC3C4CFC2533B3DE00B35367 /* CreateExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateExpenseViewController.swift; sourceTree = "<group>"; };
+		AC3C4CFD2533B3DE00B35367 /* CreateExpenseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateExpenseViewController.xib; sourceTree = "<group>"; };
+		AC3C4D002533B3F200B35367 /* ExpenseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseListViewController.swift; sourceTree = "<group>"; };
+		AC3C4D012533B3F200B35367 /* ExpenseListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpenseListViewController.xib; sourceTree = "<group>"; };
+		AC3C4D082533B40C00B35367 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		AC3C4D092533B40C00B35367 /* CategoriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesViewController.xib; sourceTree = "<group>"; };
+		AC3C4D0C2533C67C00B35367 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		AC3C4D0D2533C67C00B35367 /* StatisticsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatisticsViewController.xib; sourceTree = "<group>"; };
+		AC3C4D122533C9EA00B35367 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		AC3C4D142533C9F500B35367 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		AC3C4D172533CBD200B35367 /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
+		AC3C4D182533CBD200B35367 /* ExpenseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpenseTableViewCell.xib; sourceTree = "<group>"; };
 		ACD582632525397C000BF6B6 /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD582662525397C000BF6B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACD582682525397C000BF6B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACD5826A2525397C000BF6B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACD5826F2525397F000BF6B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACD582722525397F000BF6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACD582742525397F000BF6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +67,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC3C4D102533C9B200B35367 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC3C4D122533C9EA00B35367 /* Expense.swift */,
+				AC3C4D142533C9F500B35367 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC3C4D112533C9B800B35367 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC3C4D162533CBB100B35367 /* ExpenseList */,
+				AC28079525253D8F00185DF4 /* InitialViewController.swift */,
+				AC28079625253D8F00185DF4 /* InitialViewController.xib */,
+				AC3C4CF42533B3A000B35367 /* HomeTabBarViewController.swift */,
+				AC3C4CF52533B3A000B35367 /* HomeTabBarViewController.xib */,
+				AC3C4CF82533B3D000B35367 /* SettingsViewController.swift */,
+				AC3C4CF92533B3D000B35367 /* SettingsViewController.xib */,
+				AC3C4CFC2533B3DE00B35367 /* CreateExpenseViewController.swift */,
+				AC3C4CFD2533B3DE00B35367 /* CreateExpenseViewController.xib */,
+				AC3C4D082533B40C00B35367 /* CategoriesViewController.swift */,
+				AC3C4D092533B40C00B35367 /* CategoriesViewController.xib */,
+				AC3C4D0C2533C67C00B35367 /* StatisticsViewController.swift */,
+				AC3C4D0D2533C67C00B35367 /* StatisticsViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AC3C4D162533CBB100B35367 /* ExpenseList */ = {
+			isa = PBXGroup;
+			children = (
+				AC3C4D172533CBD200B35367 /* ExpenseTableViewCell.swift */,
+				AC3C4D182533CBD200B35367 /* ExpenseTableViewCell.xib */,
+				AC3C4D002533B3F200B35367 /* ExpenseListViewController.swift */,
+				AC3C4D012533B3F200B35367 /* ExpenseListViewController.xib */,
+			);
+			path = ExpenseList;
+			sourceTree = "<group>";
+		};
 		ACD5825A2525397C000BF6B6 = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +126,9 @@
 		ACD582652525397C000BF6B6 /* ExpenseTracker */ = {
 			isa = PBXGroup;
 			children = (
+				AC3C4D102533C9B200B35367 /* Model */,
+				AC3C4D112533C9B800B35367 /* ViewControllers */,
 				ACD582662525397C000BF6B6 /* AppDelegate.swift */,
-				ACD582682525397C000BF6B6 /* SceneDelegate.swift */,
-				ACD5826A2525397C000BF6B6 /* ViewController.swift */,
 				ACD5826F2525397F000BF6B6 /* Assets.xcassets */,
 				ACD582712525397F000BF6B6 /* LaunchScreen.storyboard */,
 				ACD582742525397F000BF6B6 /* Info.plist */,
@@ -123,7 +195,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACD582732525397F000BF6B6 /* LaunchScreen.storyboard in Resources */,
+				AC3C4CFF2533B3DE00B35367 /* CreateExpenseViewController.xib in Resources */,
+				AC3C4D0B2533B40C00B35367 /* CategoriesViewController.xib in Resources */,
+				AC3C4D0F2533C67C00B35367 /* StatisticsViewController.xib in Resources */,
+				AC3C4D1A2533CBD200B35367 /* ExpenseTableViewCell.xib in Resources */,
+				AC3C4CF72533B3A000B35367 /* HomeTabBarViewController.xib in Resources */,
 				ACD582702525397F000BF6B6 /* Assets.xcassets in Resources */,
+				AC28079825253D8F00185DF4 /* InitialViewController.xib in Resources */,
+				AC3C4CFB2533B3D000B35367 /* SettingsViewController.xib in Resources */,
+				AC3C4D032533B3F200B35367 /* ExpenseListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,9 +214,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD5826B2525397C000BF6B6 /* ViewController.swift in Sources */,
+				AC3C4CF62533B3A000B35367 /* HomeTabBarViewController.swift in Sources */,
+				AC3C4D152533C9F500B35367 /* Category.swift in Sources */,
 				ACD582672525397C000BF6B6 /* AppDelegate.swift in Sources */,
-				ACD582692525397C000BF6B6 /* SceneDelegate.swift in Sources */,
+				AC28079725253D8F00185DF4 /* InitialViewController.swift in Sources */,
+				AC3C4D0E2533C67C00B35367 /* StatisticsViewController.swift in Sources */,
+				AC3C4D022533B3F200B35367 /* ExpenseListViewController.swift in Sources */,
+				AC3C4CFA2533B3D000B35367 /* SettingsViewController.swift in Sources */,
+				AC3C4D132533C9EA00B35367 /* Expense.swift in Sources */,
+				AC3C4D192533CBD200B35367 /* ExpenseTableViewCell.swift in Sources */,
+				AC3C4D0A2533B40C00B35367 /* CategoriesViewController.swift in Sources */,
+				AC3C4CFE2533B3DE00B35367 /* CreateExpenseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
